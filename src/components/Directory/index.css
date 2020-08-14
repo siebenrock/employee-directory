@@ -1,0 +1,14 @@
+.ant-drawer-content {
+  overflow: scroll;
+}
+
+.ant-page-header-heading-extra {
+  display: inline;
+  float: right;
+  width: auto;
+  padding-top: 0px;
+}
+
+#directory-feed .ant-cascader-picker-arrow {
+  display: none;
+}

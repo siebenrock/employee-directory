@@ -1,0 +1,25 @@
+.ant-page-header-footer {
+  padding-top: 36px;
+}
+
+.resources-feed-heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.ant-tabs-bar {
+  margin-bottom: 0px;
+}
+
+.resources-tabs {
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  width: 100vw;
+}

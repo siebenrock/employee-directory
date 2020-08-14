@@ -1,0 +1,49 @@
+{
+  "name": "community",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.23.6",
+    "antd-img-crop": "^2.1.2",
+    "axios": "^0.19.0",
+    "firebase": "^7.2.0",
+    "leaflet": "^1.5.1",
+    "react": "^16.10.2",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.10.2",
+    "react-image": "^2.2.0",
+    "react-leaflet": "^2.4.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "react-swipeable": "^5.4.0",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "start": "react-scripts start",
+    "prebuild": "npm run lint",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "lint-staged": "^8.1.4",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
+}

@@ -1,0 +1,71 @@
+#feed-card > .ant-card-body {
+  padding: 6% 20px 6% 24px;
+}
+
+.resources-card {
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resources-card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resources-card-tagline {
+  margin-bottom: 0em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resources-card-meta {
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.resources-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.resources-logo-wrapper:hover {
+  cursor: pointer;
+}
+
+.resources-logo {
+  height: 100%;
+}
+
+.resource-card-clickable:hover {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.resources-details-wrapper {
+  font-size: 0.65rem;
+  letter-spacing: -0.2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources-action-icon {
+  margin-right: 10px;
+}
+
+.anticon-delete:hover {
+  color: red;
+}
+
+@media (max-width: 500px) {
+  .ant-card-body {
+    padding: 5% 6%;
+  }
+}

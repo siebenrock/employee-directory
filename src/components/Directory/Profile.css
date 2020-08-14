@@ -1,0 +1,77 @@
+.name {
+  font-size: 3.2em;
+  margin-bottom: 0.14em;
+  line-height: 1.2;
+}
+
+.header-label {
+  font-size: 22px;
+}
+
+.label {
+  font-size: 0.9em;
+  font-weight: lighter;
+}
+
+.entry-heading {
+  margin-top: 0.08rem;
+  margin-bottom: 0rem;
+}
+
+.entry-text {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.link:hover {
+  color: #1890ff;
+}
+
+.tag {
+  margin-bottom: 0.4rem;
+}
+
+.entry-wrapper {
+  margin-bottom: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-action {
+  align-self: center;
+}
+
+.entry-action-button {
+  margin-left: 8px;
+}
+
+.entry-text .anticon {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 0.75rem;
+  vertical-align: 0.03rem;
+}
+
+.entry-text .anticon:hover {
+  color: #1890ff;
+}
+
+.edit-button {
+  margin-top: 0.5em;
+}
+
+@media (max-width: 500px) {
+  .name {
+    font-size: 2.1em;
+  }
+
+  .header-label {
+    font-size: 1.15em;
+  }
+
+  .edit-button {
+    margin-top: 0.3em;
+  }
+}

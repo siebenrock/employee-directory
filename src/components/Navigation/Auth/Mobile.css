@@ -1,0 +1,20 @@
+.mobile-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+
+.ant-menu-horizontal {
+  line-height: 3.4rem;
+}
+
+.submenu-item {
+  padding: 0.7rem 1.5rem;
+}

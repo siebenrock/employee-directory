@@ -1,0 +1,9 @@
+export const LANDING = "/";
+export const LOGIN = "/login";
+export const VERIFY = "/verify";
+export const ACCOUNT = "/account";
+export const ADMIN = "/admin";
+export const SETUP = "/setup";
+export const DIRECTORY = "/directory";
+export const RESOURCES = "/resources";
+export const REGIONALS = "/regionals";

@@ -1,0 +1,17 @@
+.ant-btn > i.anticon.anticon-search {
+  margin-right: 0px;
+}
+
+#search-menu-item.ant-menu-item {
+  height: auto;
+}
+
+#search-menu-item .ant-radio-wrapper {
+  display: block;
+  height: 30px;
+  line-height: 24px;
+}
+
+#find-class-menu-item .ant-cascader-picker-arrow {
+  display: none;
+}

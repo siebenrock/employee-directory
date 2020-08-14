@@ -1,0 +1,66 @@
+export const resourceTypes = {
+  Tools: {
+    tags: [
+      "Marketing",
+      "Idea Generation",
+      "Design",
+      "Project Management",
+      "Market Research",
+      "Forms & Surveys",
+      "Mockups & Wireframing",
+      "UX & UI",
+      "Development",
+      "Hosting & Deployment",
+      "Social Tools",
+      "Presentation",
+      "Product Demo",
+      "Launching",
+      "Analytics",
+      "Customer Support",
+      "Product Management",
+      "Task Management",
+      "Communication",
+      "Productivity",
+      "Feedback & Bugtracking",
+      "E-Commerce",
+      "Payments",
+      "Outsourcing",
+      "Raising Capital",
+      "Investor Relations",
+      "Sales",
+      "CRM",
+      "Legal",
+      "Finance",
+      "HR",
+      "Open Source",
+    ],
+  },
+  Books: { tags: ["Fiction", "Business", "IT"] },
+  Podcasts: { tags: ["Series", "Entertainment", "Startups", "Science"] },
+  Videos: { tags: ["Series", "IT"] },
+  Courses: { tags: ["Personal development", "Web Development"] },
+  Conferences: { tags: ["Startups"] },
+  "Startup Deals": {
+    tooltip:
+      "If you know of any deals you'd like to have and the CDTM can apply for, please reach out to entrepreneurshiptf@cdtm.de",
+    tags: ["Cloud", "Productivity", "Marketing", "Software", "Grants"],
+  },
+};
+
+export const sortOptions = {
+  upvotes: {
+    label: "Upvotes ",
+    order: "desc",
+    icon: "like",
+  },
+  title: {
+    label: "Title",
+    order: "asc",
+    icon: "sort-ascending",
+  },
+  createdAt: {
+    label: "Submission",
+    order: "desc",
+    icon: "calendar",
+  },
+};

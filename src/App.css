@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-page-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.module {
+  padding: 56px 0px;
+  background-color: transparent;
+}
+
+.module-thin {
+  padding: 24px 24px;
+  background-color: transparent;
+}
+
+.module-thin-sides {
+  padding: 8px 24px;
+  background-color: transparent;
+}
+
+.module-mobile {
+  margin-top: 110px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e8e8e8;
+  background-color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  .module {
+    padding: 0px 0px 66px 0px;
+  }
+
+  .module-thin {
+    padding: 16px 18px 32px;
+  }
+
+  .ant-input {
+    font-size: 16px;
+    height: 2.3rem;
+  }
+}

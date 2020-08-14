@@ -1,0 +1,36 @@
+.ant-card-body {
+  padding: 7%;
+}
+
+.ant-card-meta-detail > div:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.directory-card {
+  border-radius: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.directory-card .avatar {
+  border-radius: 6px 6px 0 0;
+}
+
+.ant-card-meta-description {
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .ant-card-meta-title {
+    line-height: 1.2;
+  }
+  .directory-card-title {
+    font-size: 0.8rem;
+  }
+  .directory-card-label {
+    font-size: 0.75rem;
+  }
+  .ant-card-body {
+    padding: 9% 7%;
+  }
+}

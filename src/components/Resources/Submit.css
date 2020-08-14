@@ -1,0 +1,16 @@
+.resource-submit-heading {
+  margin-top: 32px;
+  margin-bottom: 14px;
+}
+
+.ant-form-item {
+  margin-bottom: 8px;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.submit-button-group {
+  margin-top: 24px;
+}
